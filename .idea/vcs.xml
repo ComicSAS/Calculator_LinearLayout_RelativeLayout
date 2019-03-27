@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Files/2018/2kurs/ArchitekturaPK/ArchComp/LAB1/DEMO/Лысюк Использование утилиты MSTest (C#)/fsize" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Files/3курс/Lab2_OOP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Files/3курс/kursovaya_oop" vcs="Git" />

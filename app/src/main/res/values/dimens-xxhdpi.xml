@@ -1,0 +1,8 @@
+<resources>
+    <dimen name = "indentation_16">32dp</dimen>
+    <dimen name = "indentation_8">16dp</dimen>
+    <dimen name = "view_param_100">200dp</dimen>
+    <dimen name = "view_param_30">60dp</dimen>
+    <dimen name="view_param_80">160dp</dimen>
+    <dimen name="text_size_15">30sp</dimen>
+</resources>

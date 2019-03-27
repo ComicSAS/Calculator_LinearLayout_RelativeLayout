@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Calculator</string>
-    <string name="txt_general_calculate">Calculate</string>
-    <string name="txt_general_hint_enter">Enter</string>
+    <string name="app_name">Калькулятор</string>
+    <string name="txt_general_calculate">Подсчитать</string>
+    <string name="txt_general_hint_enter">Ввести</string>
     <string name="txt_0">0</string>
     <string name="txt_1">1</string>
     <string name="txt_2">2</string>

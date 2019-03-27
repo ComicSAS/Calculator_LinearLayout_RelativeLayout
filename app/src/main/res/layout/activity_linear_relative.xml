@@ -5,164 +5,173 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LinearRelativeActivity">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
 
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        >
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/buttonPanel1"
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:autofillHints="@string/txt_general_hint_enter"
+            android:hint="@string/txt_general_hint_enter" />
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
 
+            <Button
+                android:id="@+id/buttonPanel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_7"
+                android:textSize="@dimen/text_size_15" />
 
+            <Button
+                android:id="@+id/buttonPanel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel1"
+                android:text="@string/txt_8"
+                android:textSize="@dimen/text_size_15" />
 
+            <Button
+                android:id="@+id/buttonPanel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel2"
+                android:text="@string/txt_9"
+                android:textSize="@dimen/text_size_15" />
 
-            />
-        <Button
-            android:id="@+id/buttonPanel2"
-            android:layout_toRightOf="@id/buttonPanel1"
+            <Button
+                android:id="@+id/buttonPanel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel3"
+                android:text="@string/txt_percent"
+                android:textSize="@dimen/text_size_15" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
 
+            <Button
+                android:id="@+id/buttonPanel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_4"
+                android:textSize="@dimen/text_size_15" />
 
+            <Button
+                android:id="@+id/buttonPanel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel5"
+                android:text="@string/txt_5"
+                android:textSize="@dimen/text_size_15" />
 
-        />
-        <Button
-            android:id="@+id/buttonPanel3"
+            <Button
+                android:id="@+id/buttonPanel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel6"
+                android:text="@string/txt_6"
+                android:textSize="@dimen/text_size_15" />
 
+            <Button
+                android:id="@+id/buttonPanel8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel7"
+                android:text="@string/txt_substitute"
+                android:textSize="@dimen/text_size_15" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/buttonPanel2"
+            android:layout_gravity="center_horizontal">
 
+            <Button
+                android:id="@+id/buttonPanel9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_1"
+                android:textSize="@dimen/text_size_15" />
 
-            />
-        <Button
-            android:id="@+id/buttonPanel4"
-            android:layout_toRightOf="@id/buttonPanel3"
+            <Button
+                android:id="@+id/buttonPanel10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel9"
+                android:text="@string/txt_2"
+                android:textSize="@dimen/text_size_15" />
 
+            <Button
+                android:id="@+id/buttonPane111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel10"
+                android:text="@string/txt_3"
+                android:textSize="@dimen/text_size_15" />
+
+            <Button
+                android:id="@+id/buttonPanel12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPane111"
+                android:text="@string/txt_multiply"
+                android:textSize="@dimen/text_size_15" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
 
+            <Button
+                android:id="@+id/buttonPanel13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_dot"
+                android:textSize="@dimen/text_size_15" />
 
-            />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/buttonPanel14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel13"
+                android:text="@string/txt_0"
+                android:textSize="@dimen/text_size_15" />
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        >
+            <Button
+                android:id="@+id/buttonPanel15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel14"
+                android:text="@string/txt_plus"
+                android:textSize="@dimen/text_size_15" />
 
-        <Button
-            android:id="@+id/buttonPanel5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-        <Button
-            android:id="@+id/buttonPanel6"
-            android:layout_toRightOf="@id/buttonPanel5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-
-
-            />
-        <Button
-            android:id="@+id/buttonPanel7"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/buttonPanel6"
-
-
-            />
-        <Button
-            android:id="@+id/buttonPanel8"
-            android:layout_toRightOf="@id/buttonPanel7"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-
-            />
-    </RelativeLayout>
-
-    <RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal"
-    >
-
-    <Button
-        android:id="@+id/buttonPanel9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-    <Button
-        android:id="@+id/buttonPanel10"
-        android:layout_toRightOf="@id/buttonPanel9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-    <Button
-        android:id="@+id/buttonPane111"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/buttonPanel10"
-        />
-    <Button
-        android:id="@+id/buttonPanel12"
-        android:layout_toRightOf="@id/buttonPane111"
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-</RelativeLayout>
-
-    <RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal"
-    >
-
-    <Button
-        android:id="@+id/buttonPanel13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-    <Button
-        android:id="@+id/buttonPanel14"
-        android:layout_toRightOf="@id/buttonPanel13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-    <Button
-        android:id="@+id/buttonPanel15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/buttonPanel14"
-        />
-    <Button
-        android:id="@+id/buttonPanel16"
-        android:layout_toRightOf="@id/buttonPanel15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-</RelativeLayout>
+            <Button
+                android:id="@+id/buttonPanel16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/buttonPanel15"
+                android:text="@string/txt_minus"
+                android:textSize="@dimen/text_size_15" />
+        </RelativeLayout>
 
         <Button
             android:id="@+id/buttonPanelEnter"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-</LinearLayout>
+            android:layout_height="wrap_content"
+            android:background="@color/colorCalculate"
+            android:text="@string/txt_general_calculate"
+            android:textSize="@dimen/text_size_15" />
+    </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

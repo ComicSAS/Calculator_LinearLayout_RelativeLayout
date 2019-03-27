@@ -8,5 +8,5 @@
     <color name="colorBorderAvatar">#001AFF</color>
     <color name="colorAvatar">#00FF04</color>
     <color name="colorChangeAvatar">#FFF300</color>
-
+    <color name="colorCalculate">#FF5722</color>
 </resources>

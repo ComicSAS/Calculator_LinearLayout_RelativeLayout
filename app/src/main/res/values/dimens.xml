@@ -4,4 +4,5 @@
     <dimen name = "view_param_100">100dp</dimen>
     <dimen name = "view_param_30">30dp</dimen>
     <dimen name="view_param_80">80dp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
 </resources>
