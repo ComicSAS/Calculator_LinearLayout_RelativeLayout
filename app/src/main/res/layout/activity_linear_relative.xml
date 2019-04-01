@@ -12,11 +12,13 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/et_main_result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
-            android:autofillHints="@string/txt_general_hint_enter"
-            android:hint="@string/txt_general_hint_enter" />
+            android:inputType="number"
+            android:text=""
+            android:autofillHints="">
+        </EditText>
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -24,34 +26,34 @@
             android:layout_gravity="center_horizontal">
 
             <Button
-                android:id="@+id/buttonPanel1"
+                android:id="@+id/btn_main_seven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_7"
+                android:text="@string/txt_seven"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel2"
+                android:id="@+id/btn_main_eight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel1"
-                android:text="@string/txt_8"
+                android:layout_toRightOf="@id/btn_main_seven"
+                android:text="@string/txt_eight"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel3"
+                android:id="@+id/btn_main_nine"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel2"
-                android:text="@string/txt_9"
+                android:layout_toRightOf="@id/btn_main_eight"
+                android:text="@string/txt_nine"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel4"
+                android:id="@+id/btn_main_clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel3"
-                android:text="@string/txt_percent"
+                android:layout_toRightOf="@id/btn_main_nine"
+                android:text="@string/txt_clear"
                 android:textSize="@dimen/text_size_15" />
         </RelativeLayout>
 
@@ -61,34 +63,34 @@
             android:layout_gravity="center_horizontal">
 
             <Button
-                android:id="@+id/buttonPanel5"
+                android:id="@+id/btn_main_four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_4"
+                android:text="@string/txt_four"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel6"
+                android:id="@+id/btn_main_five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel5"
-                android:text="@string/txt_5"
+                android:layout_toRightOf="@id/btn_main_four"
+                android:text="@string/txt_five"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel7"
+                android:id="@+id/btn_main_six"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel6"
-                android:text="@string/txt_6"
+                android:layout_toRightOf="@id/btn_main_five"
+                android:text="@string/txt_six"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel8"
+                android:id="@+id/btn_main_division"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel7"
-                android:text="@string/txt_substitute"
+                android:layout_toRightOf="@id/btn_main_six"
+                android:text="@string/txt_division"
                 android:textSize="@dimen/text_size_15" />
         </RelativeLayout>
 
@@ -98,33 +100,33 @@
             android:layout_gravity="center_horizontal">
 
             <Button
-                android:id="@+id/buttonPanel9"
+                android:id="@+id/btn_main_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_1"
+                android:text="@string/txt_one"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel10"
+                android:id="@+id/btn_main_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel9"
-                android:text="@string/txt_2"
+                android:layout_toRightOf="@id/btn_main_one"
+                android:text="@string/txt_two"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPane111"
+                android:id="@+id/btn_main_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel10"
-                android:text="@string/txt_3"
+                android:layout_toRightOf="@id/btn_main_two"
+                android:text="@string/txt_three"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel12"
+                android:id="@+id/btn_main_multiply"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPane111"
+                android:layout_toRightOf="@id/btn_main_three"
                 android:text="@string/txt_multiply"
                 android:textSize="@dimen/text_size_15" />
         </RelativeLayout>
@@ -135,43 +137,43 @@
             android:layout_gravity="center_horizontal">
 
             <Button
-                android:id="@+id/buttonPanel13"
+                android:id="@+id/btn_main_dot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_dot"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel14"
+                android:id="@+id/btn_main_zero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel13"
-                android:text="@string/txt_0"
+                android:layout_toRightOf="@id/btn_main_dot"
+                android:text="@string/txt_zero"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel15"
+                android:id="@+id/btn_main_plus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel14"
+                android:layout_toRightOf="@id/btn_main_zero"
                 android:text="@string/txt_plus"
                 android:textSize="@dimen/text_size_15" />
 
             <Button
-                android:id="@+id/buttonPanel16"
+                android:id="@+id/btn_main_minus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/buttonPanel15"
+                android:layout_toRightOf="@id/btn_main_plus"
                 android:text="@string/txt_minus"
                 android:textSize="@dimen/text_size_15" />
         </RelativeLayout>
 
         <Button
-            android:id="@+id/buttonPanelEnter"
+            android:id="@+id/btn_main_equal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorCalculate"
-            android:text="@string/txt_general_calculate"
+            android:background="@color/colorOrange"
+            android:text="@string/txt_equal"
             android:textSize="@dimen/text_size_15" />
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
